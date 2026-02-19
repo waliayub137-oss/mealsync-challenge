@@ -48,3 +48,18 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+## Architecture
+
+- Expo Router based navigation
+- Shared meal state using Context + useReducer
+- Suggestion engine separated into utils
+- Allergen based filtering
+- Dietary preference ranking
+- Suggestions optimized using useMemo
+
+## Improvement
+
+With more time, I would implement weighted scoring
+using multiple dietaryTags for more personalized suggestions.
